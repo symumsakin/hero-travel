@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.primary-color {
+    color: #FF5400;
+}
+
+.secondary-color {
+    color: #424247;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left h1 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-left img {
+    width: 48px;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-ul li:hover {
+    color: #FF5400;
+    cursor: pointer;
+}

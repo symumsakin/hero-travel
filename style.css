@@ -65,7 +65,7 @@ nav {
         url('assets/Group\ 13.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 500px;
+    height: auto;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,8 @@ form {
 
 form input,
 form select,
-form ::placeholder {
+form ::placeholder,
+form input[type=date] {
     color: rgba(19, 19, 24, 0.5);
     font-size: 16px;
     padding: 5px;
@@ -121,11 +122,47 @@ form button {
 }
 
 .form-container {
-    width: 70%;
+    width: 795px;
     height: 82px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
+}
+
+/* responsive media query */
+
+@media screen and (max-width: 1050px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 15px;
+    }
+
+    .hero {
+        background-size: cover;
+        height: 615px;
+    }
+
+    .hero-container {
+        margin-top: 48px;
+    }
+
+    form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3px;
+    }
+
+    .form-container {
+        width: 357px;
+        height: 150px;
+        border-radius: 16px;
+        margin-bottom: 0;
+    }
+
 }

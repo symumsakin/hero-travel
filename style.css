@@ -21,6 +21,22 @@ body {
     color: #424247;
 }
 
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.btn-primary {
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #FF5400;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -108,7 +124,7 @@ form input[type=date] {
 
 form input,
 form select,
-button {
+form button {
     width: 174px;
     height: 52px;
     border: none;
@@ -119,6 +135,7 @@ form button {
     background-color: #FF5400;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .form-container {
@@ -130,6 +147,31 @@ form button {
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
+}
+
+.popular-tours {
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.p-tours-left {
+    width: 50%;
+    text-align: justify;
+}
+
+.p-tours-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p-tours-right img {
+    height: 456.5px;
+}
+
+.p-tours-ul {
+    margin-left: 20px;
 }
 
 /* responsive media query */
@@ -165,4 +207,22 @@ form button {
         margin-bottom: 0;
     }
 
+    .popular-tours {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .p-tours-left {
+        width: 100%;
+    }
+
+    .p-tours-right {
+        width: 100%;
+    }
+
+    .p-tours-right img {
+        width: 100%;
+        height: 100%;
+        margin: 24px 0 50px 0;
+    }
 }

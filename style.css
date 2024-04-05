@@ -178,6 +178,46 @@ form button {
     margin-top: 100px;
 }
 
+.img-1 {
+    grid-area: firstImage;
+}
+.img-2 {
+    grid-area: secondImage;
+}
+.img-3 {
+    grid-area: thirdImage;
+}
+.img-4 {
+    grid-area: fourthImage;
+}
+.img-5 {
+    grid-area: fifthImage;
+}
+.img-6 {
+    grid-area: sixthImage;
+}
+.img-7 {
+    grid-area: seventhImage;
+}
+
+.destination-gallery img {
+    height: 300px;
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.destination-gallery {
+    display: grid;
+    gap: 24px;
+    grid-template-areas: 
+    'firstImage firstImage secondImage secondImage'
+    'thirdImage fourthImage fourthImage fifthImage'
+    'sixthImage seventhImage seventhImage seventhImage'
+    ;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 1050px) {

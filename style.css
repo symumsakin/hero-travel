@@ -174,6 +174,10 @@ form button {
     margin-left: 20px;
 }
 
+.choose-destination {
+    margin-top: 100px;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 1050px) {

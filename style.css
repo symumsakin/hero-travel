@@ -212,9 +212,9 @@ form button {
     display: grid;
     gap: 24px;
     grid-template-areas: 
-    'firstImage firstImage secondImage secondImage'
-    'thirdImage fourthImage fourthImage fifthImage'
-    'sixthImage seventhImage seventhImage seventhImage'
+    'firstImage firstImage firstImage secondImage secondImage secondImage'
+    'thirdImage fourthImage fourthImage fourthImage fourthImage fifthImage'
+    'sixthImage sixthImage seventhImage seventhImage seventhImage seventhImage'
     ;
 }
 

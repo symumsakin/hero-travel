@@ -269,4 +269,9 @@ form button {
         height: 100%;
         margin: 24px 0 50px 0;
     }
+
+    .destination-gallery {
+        display: flex;
+        flex-direction: column;
+    }
 }

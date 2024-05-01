@@ -218,6 +218,55 @@ form button {
     ;
 }
 
+.why-choose-us {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.handpicked {
+    width: 550px;
+    height: 280px;
+    background-color: rgba(251, 181, 99, 0.1);
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    padding: 32px;
+}
+
+.world-class-service {
+    width: 550px;
+    height: 280px;
+    background-color: rgba(41, 206, 246, 0.1);
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    padding: 32px;
+}
+
+.best-price {
+    width: 550px;
+    height: 280px;
+    background-color: rgba(233, 68, 68, 0.1);
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    padding: 32px;
+}
+
+.why-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.why-cards h4 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.best-price {
+    margin: 49px auto 49px auto;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 1050px) {
@@ -273,5 +322,20 @@ form button {
     .destination-gallery {
         display: flex;
         flex-direction: column;
+    }
+
+    .why-cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .handpicked, .world-class-service, .best-price {
+        width: 100%;
+    }
+
+    .best-price {
+        margin: auto;
     }
 }

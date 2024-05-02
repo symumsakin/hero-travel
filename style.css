@@ -224,7 +224,7 @@ form button {
 }
 
 .handpicked {
-    width: 550px;
+    width: 530px;
     height: 280px;
     background-color: rgba(251, 181, 99, 0.1);
     border-radius: 16px;
@@ -233,7 +233,7 @@ form button {
 }
 
 .world-class-service {
-    width: 550px;
+    width: 530px;
     height: 280px;
     background-color: rgba(41, 206, 246, 0.1);
     border-radius: 16px;
@@ -242,7 +242,7 @@ form button {
 }
 
 .best-price {
-    width: 550px;
+    width: 530px;
     height: 280px;
     background-color: rgba(233, 68, 68, 0.1);
     border-radius: 16px;
@@ -264,7 +264,7 @@ form button {
 }
 
 .best-price {
-    margin: 49px auto 49px auto;
+    margin: 13px auto 13px auto;
 }
 
 /* responsive media query */

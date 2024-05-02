@@ -267,6 +267,51 @@ form button {
     margin: 13px auto 13px auto;
 }
 
+.deals-img-card {
+    background-image: url('assets/Group\ 39.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.santorini-tour-card {
+    width: 550px;
+    height: 380px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.tour-card-container {
+    width: 85%;
+    margin: 40px auto 40px auto;
+}
+
+.tour-card-container h4 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tour-card-container h5 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.see-all-packages-btn {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 1050px) {
@@ -337,5 +382,10 @@ form button {
 
     .best-price {
         margin: auto;
+    }
+
+    .deals-img-card {
+        background-size: cover;
+        border-radius: 16px;
     }
 }

@@ -312,6 +312,15 @@ form button {
     margin: 35px;
 }
 
+.form-container h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.form-container p {
+    width: 62%;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 1050px) {

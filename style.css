@@ -181,21 +181,27 @@ form button {
 .img-1 {
     grid-area: firstImage;
 }
+
 .img-2 {
     grid-area: secondImage;
 }
+
 .img-3 {
     grid-area: thirdImage;
 }
+
 .img-4 {
     grid-area: fourthImage;
 }
+
 .img-5 {
     grid-area: fifthImage;
 }
+
 .img-6 {
     grid-area: sixthImage;
 }
+
 .img-7 {
     grid-area: seventhImage;
 }
@@ -211,10 +217,10 @@ form button {
 .destination-gallery {
     display: grid;
     gap: 24px;
-    grid-template-areas: 
-    'firstImage firstImage firstImage secondImage secondImage secondImage'
-    'thirdImage fourthImage fourthImage fourthImage fourthImage fifthImage'
-    'sixthImage sixthImage seventhImage seventhImage seventhImage seventhImage'
+    grid-template-areas:
+        'firstImage firstImage firstImage secondImage secondImage secondImage'
+        'thirdImage fourthImage fourthImage fourthImage fourthImage fifthImage'
+        'sixthImage sixthImage seventhImage seventhImage seventhImage seventhImage'
     ;
 }
 
@@ -312,13 +318,25 @@ form button {
     margin: 35px;
 }
 
-.form-container h4 {
+.newsletter-form-container h4 {
     font-size: 24px;
     font-weight: 800;
 }
 
-.form-container p {
+.newsletter-form-container p {
     width: 62%;
+}
+
+.newsletter-form-container {
+    max-width: 400px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.newsletter-form-container form {
+    display: flex;
+    flex-direction: column;
 }
 
 /* responsive media query */
@@ -385,7 +403,9 @@ form button {
         gap: 20px;
     }
 
-    .handpicked, .world-class-service, .best-price {
+    .handpicked,
+    .world-class-service,
+    .best-price {
         width: 100%;
     }
 

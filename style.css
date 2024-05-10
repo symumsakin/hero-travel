@@ -318,6 +318,14 @@ form button {
     margin: 35px;
 }
 
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 24px; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
 .newsletter-form-container h4 {
     font-size: 24px;
     font-weight: 800;
@@ -337,6 +345,10 @@ form button {
 .newsletter-form-container form {
     display: flex;
     flex-direction: column;
+}
+
+.save-70 img {
+    width: 100%;
 }
 
 /* responsive media query */
@@ -416,5 +428,17 @@ form button {
     .deals-img-card {
         background-size: cover;
         border-radius: 16px;
+    }
+
+    .form-section {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .save-70 img {
+        width: 100%;
     }
 }
